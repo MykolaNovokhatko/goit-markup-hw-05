@@ -585,7 +585,7 @@
         <div class="footer-subscripte-container">
           <p class="subscribe-wrapper-text">Subscribe</p>
           <form class="subscribe-form-wrapper">
-            <label for="subscribe-form">
+            <label class="subscribe-form-label" for="subscribe-form">
               <input
                 class="subscribe-wrapper-input"
                 type="email"
@@ -613,7 +613,7 @@
     <!-- is-open -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-icon"
             width="8"
@@ -695,7 +695,7 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
+          <div class="review-form-comment-wrapper">
             <label class="review-form-field-lable" for="user-comment"
               >Comment</label
             >
@@ -710,12 +710,12 @@
             <input
               class="review-form-checkbox visually-hidden"
               type="checkbox"
-              name="user-privacy-policy"
-              id="user-privacy-policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="review-form-checkbox-lable" for="user-privacy-policy">
+            <label class="review-form-checkbox-lable" for="user-privacy">
               <span class="review-form-own-checkbox">
                 <svg
                   class="review-form-own-checkbox-icon"
@@ -727,10 +727,10 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a href="hello" class="privacy-decoration">Privacy Policy</a>
             </label>
           </div>
-          <button class="review-form-submit-btn" type="submit">Send</button>
+          <button class="review-form-submit-btn" type="button">Send</button>
         </form>
       </div>
     </div>
