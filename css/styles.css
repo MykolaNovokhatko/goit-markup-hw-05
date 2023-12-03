@@ -584,6 +584,7 @@ img {
 
 .subscribe-wrapper-input {
   border-radius: 4px;
+  color: #ffffff;
   border: 1px solid #fff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background: transparent;
@@ -598,7 +599,7 @@ img {
 }
 
 .subscribe-wrapper-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 
 .button-subscribe-wrapper {
@@ -802,7 +803,7 @@ img {
   cursor: pointer;
   width: 16px;
   height: 16px;
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   align-items: center;
